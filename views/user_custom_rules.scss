@@ -1,9 +1,10 @@
 //Phones Designs
 @media screen and (min-width:360px) and (max-width: 767px) {
-  .user-custom-rules {
-    display: none;
-  }
+  // .user-custom-rules {
+  //   display: none;
+  // }
 }
+//END phones designs
   
 //Tablets Design
 @media screen and (max-width: 1350px) {
@@ -11,7 +12,8 @@
   //   display: none;
   // }
 }
-  
+//END Tablets Design 
+
 //Laptop/Decent Screen size
 @media screen and (min-width:1360px)
 {
@@ -20,6 +22,7 @@
   //   width: 1360px;
   // }
 }
+//END Laptop/Decent Screen size
 
 //Computer(pc)/Tv Size
 @media screen and (min-width:1380px) and (max-width: 1920px) {
@@ -41,4 +44,4 @@
       margin-left: 65px;
     }
 }
-    
+//END    

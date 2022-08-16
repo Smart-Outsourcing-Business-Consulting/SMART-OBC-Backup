@@ -1,0 +1,44 @@
+//Phones Designs
+@media screen and (min-width:360px) and (max-width: 767px) {
+  .user-custom-rules {
+    display: none;
+  }
+}
+  
+//Tablets Design
+@media screen and (max-width: 1350px) {
+  // .user-custom-rules {
+  //   display: none;
+  // }
+}
+  
+//Laptop/Decent Screen size
+@media screen and (min-width:1360px)
+{
+  // .container
+  // {
+  //   width: 1360px;
+  // }
+}
+
+//Computer(pc)/Tv Size
+@media screen and (min-width:1380px) and (max-width: 1920px) {
+
+    // . nav navbar-nav ml-auto
+    #top_menu {
+  
+      color: white;
+  
+    }
+  
+    // .collapse navbar-collapse order-last order-lg-0
+    #top_menu_collapse {
+      padding-left: 450px !important;
+    }
+  
+    // .container justify-content-start justify-content-lg-between
+    #top_menu_container {
+      margin-left: 65px;
+    }
+}
+    

@@ -1,0 +1,47 @@
+// Alejandro Atacho from SMART-obc Codes are below this line.
+//_________________________________________________
+// If any issues arises or fixes are need read the comments below to find out.
+// Which selectors are which.
+
+//Phones Designs
+@media screen and (min-width:360px) and (max-width: 767px) {
+    // .user-custom-rules {
+    //   display: none;
+    // }
+}
+
+//END phones designs
+
+//Tablets Design
+@media screen and (max-width: 1349px) {
+    // .user-custom-rules {
+    //   display: none;
+    // }
+}
+
+//END Tablets Design 
+
+//Laptop & Computer screen design
+@media screen and (min-width:1350px) and (max-width: 1920px) {
+
+    // . nav navbar-nav ml-auto
+    #top_menu>li.nav-item {
+
+        color: white;
+
+    }
+
+    #top_menu_container {
+        margin-left: 60px;
+    }
+
+    // // .collapse navbar-collapse order-last order-lg-0
+    #top_menu_collapse {
+        padding-left: 50px;
+    }
+
+    // // .container justify-content-start justify-content-lg-between
+    // #top_menu_container {
+    //   margin-left: 65px;
+    // }
+}

@@ -3,6 +3,8 @@
 // If any issues arises or fixes are need read the comments below to find out.
 // Which selectors are which.
 
+
+
 //Phones Designs
 @media screen and (min-width:360px) and (max-width: 767px) {
     // .user-custom-rules {
@@ -22,7 +24,7 @@
 //END Tablets Design 
 
 //Laptop & Computer screen design
-@media screen and (min-width:1350px) and (max-width: 1920px) {
+@media screen and (min-width: 1300px) and (max-width: 1920px) {
 
     // . nav navbar-nav ml-auto
     #top_menu>li.nav-item {
@@ -35,13 +37,32 @@
         margin-left: 60px;
     }
 
-    // // .collapse navbar-collapse order-last order-lg-0
+    // .collapse navbar-collapse order-last order-lg-0
     #top_menu_collapse {
         padding-left: 50px;
     }
-
-    // // .container justify-content-start justify-content-lg-between
-    // #top_menu_container {
-    //   margin-left: 65px;
-    // }
 }
+
+//Overall screen size codes
+#wrap>section.s_text_image.pt32.o_colored_level.pb112>div>div>div.o_colored_level.pb0.col-lg-5.rounded.shadow.pt0 {
+    background-image: url("/web/image/2670-f5395eae/2M1A6787-scaled.jpg");
+    background-position: left;
+    color: white;
+
+    .contact-bg {
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        padding: 40px 40px 40px 40px;
+    }
+
+    img {
+        width: 30px !important;
+        height: auto;
+    }
+
+    span>ul>li>a:hover {
+        color: #51E1DF !important;
+    }
+
+}
+
+//END

@@ -1,0 +1,52 @@
+<div class="contact-bg">
+    <span>
+        <h2>Locations:</h2>
+    </span>
+    <br></br>
+    <span>
+        <h3>
+            We have offices at Curaçao, The Bahamas
+            <br></br>
+            and the Dominican Republic, we deliver
+            <br></br>
+            services in the whole Caribbean.
+        </h3>
+    </span>
+    <br></br>
+    <span>
+        <ul style='display:flex;flex-direction: column;'>
+            <li>    +599 9 737 0727
+</li>
+            <li>hola@smart-obc.com</li>
+            <li>Head Office: Willemstad, Curaçao</li>
+        </ul>
+    </span>
+    <br></br>
+    <span>
+        <h3>OUR SOCIAL PROFILES:</h3>
+        <ul style="display:flex;flex-direction: row;justify-content: space-evenly;list-style: none">
+            <li>
+                <a href="https://www.facebook.com/smartobccw>">
+                    <img src="https://i.ibb.co/zbhZWds/facebook.png" alt="facebook" border="0" />
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/smart.obc/">
+                    <img src="https://i.ibb.co/GQdxyM2/instagram-1.png" alt="instagram-1" border="0" />
+
+                </a>
+            </li>
+            <li>Link</li>
+            <li>Youtube</li>
+        </ul>
+    </span>
+</div>
+<a href="https://ibb.co/GQdxyM2">
+    <img src="https://i.ibb.co/GQdxyM2/instagram-1.png" alt="instagram-1" border="0">
+</a><a href="https://ibb.co/RvrKVz9">
+    <img src="https://i.ibb.co/RvrKVz9/linkedin.png" alt="linkedin" border="0">
+</a><a href="https://ibb.co/bzNpzyp">
+    <img src="https://i.ibb.co/bzNpzyp/youtube.png" alt="youtube" border="0">
+</a><a href="https://ibb.co/zbhZWds">
+    <img src="https://i.ibb.co/zbhZWds/facebook.png" alt="facebook" border="0">
+</a>

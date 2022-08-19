@@ -2,12 +2,15 @@
     <t t-call="website.layout">
         <t t-set="logged_partner" t-value="request.env['website.visitor']._get_visitor_from_request().partner_id" />
         <t t-set="contactus_form_values" t-value="{                 'email_to': res_company.email,                 'name': request.params.get('name', ''),                 'phone': request.params.get('phone', ''),                 'email_from': request.params.get('email_from', ''),                 'company': request.params.get('company', ''),                 'subject': request.params.get('subject', ''),             }" />
-        <span class="hidden" data-for="contactus_form" t-att-data-values="contactus_form_values" />
+        <span class="hidden o_editable o_dirty" data-for="contactus_form" t-att-data-values="contactus_form_values" />
         <div id="wrap" class="oe_structure oe_empty">
             <section class="s_title parallax s_parallax_is_fixed bg-black-50 pt24 o_colored_level pb232" data-vcss="001" data-snippet="s_title" data-scroll-background-ratio="1" data-name="Title" style="background-image: none;">
                 <span class="s_parallax_bg oe_img_bg o_bg_img_center" style="background-image: url(&quot;/web/image/2508-a584b048/Cueacao-2222222222.jpg&quot;); background-position: 50% 90.2778%;" data-original-id="2499" data-original-src="/web/image/2499-e140438a/Cueacao-2222222222.jpg" data-mimetype="image/jpeg" data-resize-width="1920" />
                 <div class="o_we_bg_filter bg-black-50" />
                 <div class="container">
+                    <p style="text-align: center;">
+                        <br />
+                    </p>
                     <p style="text-align: center;">
                         <br />
                     </p>
@@ -22,62 +25,171 @@
                     </h1>
                 </div>
             </section>
-            <section class="s_embed_code pt64 pb64 o_colored_level text-center" data-snippet="s_embed_code" data-name="Embed Code" style="background-image: none;">
-                <div class="s_embed_code_embedded o_not_editable container">
-                    <div class="contact-form">
-                        <div class="contact-location">
-                            <div>
-                                <h2>Locations:</h2>
+            <section class="s_text_image pt32 o_colored_level pb112" data-snippet="s_image_text" data-name="Image - Text" style="background-image: none;" data-original-title="" title="" aria-describedby="tooltip643463">
+                <div class="container">
+                    <div class="row align-items-stretch">
+                        <div class="o_colored_level pb0 col-lg-5 rounded shadow pt0" style="border-radius: 30px !important; box-shadow: rgba(0, 0, 0, 0.15) 0px 30px 16px 9px !important;">
+                            <div class="contact-bg">
+                                <span>
+                                    <h2>Locations:</h2>
+                                </span>
                                 <br />
+                                <span>
+                                    <p>
+                                        We have offices at Curaçao,
+                                        <br />
+                                        The Bahamas and the Dominican Republic, we deliver services
+                                        <br />
+                                        in the whole Caribbean.
+                                    </p>
+                                </span>
                                 <br />
-                                <p>We have offices at Curaçao, The Bahamas and the Dominican Republic, we deliver services in the whole Caribbean.</p>
-                                <br />
-                                <br />
-                                <div>
-                                    <p>+599 9 737 0727</p>
-                                    <br />
-                                    <br />
-                                    <p>hola@smart-obc.com</p>
-                                    <br />
-                                    <br />
-                                    <p>Head Office: Willemstad, Curaçao</p>
-                                </div>
-                                <div>
-                                    <p>OUR SOCIAL PROFIELS</p>
-                                    <ul>
-                                        <li>F</li>
-                                        <li>I</li>
-                                        <li>L</li>
-                                        <li>Y</li>
+                                <span>
+                                    <ul style="display:flex;flex-direction: column;list-style:none;padding-left:0px;">
+                                        <li>
+                                            <img src="https://i.ibb.co/56SXCBN/telephone-call.png" alt="telephone-call" border="0" />
+                                            <a href="tel:#" style="color: white; text-decoration: none;"> +599 9 123 456789</a>
+                                        </li>
+                                        <br />
+                                        <li>
+                                            <img src="https://i.ibb.co/NnJxWy2/email.png" alt="email" border="0" />
+                                            <a href="mailto:hola@smart-obc.com" style="color: white; text-decoration: none;">  hola@smart-obc.com</a>
+                                        </li>
+                                        <br />
+                                        <li>
+                                            <img src="https://i.ibb.co/wrBq4NW/location.png" alt="location" border="0" />
+                                            <a href="https://goo.gl/maps/eq2pk1A46h5XgNL6A" style="color:white;text-decoration:none;">  Head Office: Willemstad, Curaçao </a>
+                                        </li>
                                     </ul>
-                                </div>
+                                </span>
+                                <br />
+                                <span>
+                                    <h5>OUR SOCIAL PROFILES:</h5>
+                                    <br />
+                                    <ul style="display:flex;flex-direction: row;list-style: none;padding-left:0;">
+                                        <li style="padding-right:10px">
+                                            <a href="https://www.facebook.com/smartobccw">
+                                                <img src="https://i.ibb.co/zbhZWds/facebook.png" alt="facebook" border="0" />
+                                            </a>
+                                        </li>
+                                        <li style="padding-right:10px">
+                                            <a href="https://www.instagram.com/smart.obc/">
+                                                <img src="https://i.ibb.co/GQdxyM2/instagram-1.png" alt="instagram-1" border="0" />
+                                            </a>
+                                        </li>
+                                        <li style="padding-right:10px">
+                                            <a href="https://nl.linkedin.com/company/smart-obc?trk=ppro_cprof">
+                                                <img src="https://i.ibb.co/RvrKVz9/linkedin.png" alt=" linkedin" border=" 0" />
+                                            </a>
+                                        </li>
+                                        <li style="padding-right:10px">
+                                            <a href="https://www.youtube.com/channel/UCSPg6iW_W3FBf_MqtTLXfbg">
+                                                <img src="https://i.ibb.co/bzNpzyp/youtube.png" alt="youtube" border="0" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </span>
                             </div>
                         </div>
-                        <div class="contact-us">
-                            <div class="contact-names">
-                                <div class="contact-firstname">
-                                    <span>First Name</span>
-                                    <input type="text" name="First Name" />
+                        <div class="pt16 pb16 o_colored_level col-lg-6 rounded shadow" style="border-radius: 40px !important; box-shadow: rgba(0, 0, 0, 0.15) 30px 30px 16px 9px !important;" data-original-title="" title="" aria-describedby="tooltip929530">
+                            <h2 style="text-align: center;">
+                                <span style="font-weight: bolder;">Contact us</span>
+                            </h2>
+                            <p style="text-align: center;">
+                                <br />
+                            </p>
+                            <section class="s_website_form pt16 pb16" data-vcss="001" data-snippet="s_website_form" data-name="Form">
+                                <div class="container">
+                                    <form action="/website/form/" method="post" enctype="multipart/form-data" class="o_mark_required" data-mark="*" data-pre-fill="true" data-success-mode="redirect" data-success-page="/contactus-thank-you" data-model_name="mail.mail">
+                                        <div class="s_website_form_rows row s_col_no_bgcolor">
+                                            <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 col-lg-6 s_website_form_custom s_website_form_required" data-type="char" data-name="Field">
+                                                <label class="s_website_form_label" style="width: 200px" for="om8g76ed531c">
+                                                    <span class="s_website_form_label_content">First name</span>
+                                                    <span class="s_website_form_mark"> *</span>
+                                                </label>
+                                                <input type="text" class="form-control s_website_form_input" name="First name" required="1" placeholder="First Name" id="om8g76ed531c" data-fill-with="name" />
+                                            </div>
+                                            <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 col-lg-6 s_website_form_custom s_website_form_required" data-type="char" data-name="Field">
+                                                <label class="s_website_form_label " style="width: 200px" for="ocaxk0rz8zdd">
+                                                    <span class="s_website_form_label_content">Last Name</span>
+                                                    <span class="s_website_form_mark"> *</span>
+                                                </label>
+                                                <input type="text" class="form-control s_website_form_input" name="Last Name" value="" placeholder="Last Name" id="ocaxk0rz8zdd" data-fill-with="phone" required="" />
+                                            </div>
+                                            <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 s_website_form_model_required" data-type="char" data-name="Field">
+                                                <label class="s_website_form_label " style="width: 200px" for="ospz6cmnyc9e">
+                                                    <span class="s_website_form_label_content">Email</span>
+                                                    <span class="s_website_form_mark"> *</span>
+                                                </label>
+                                                <input type="text" class="form-control s_website_form_input" name="email_from" required="true" placeholder="Your Email" id="ospz6cmnyc9e" data-fill-with="email" />
+                                            </div>
+                                            <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 s_website_form_model_required" data-type="char" data-name="Field">
+                                                <label class="s_website_form_label " style="width: 200px" for="oux837l0b4o8">
+                                                    <span class="s_website_form_label_content">Subject</span>
+                                                    <span class="s_website_form_mark"> *</span>
+                                                </label>
+                                                <input type="text" class="form-control s_website_form_input" name="subject" required="true" value="" placeholder="Subject" id="oux837l0b4o8" data-fill-with="undefined" />
+                                            </div>
+                                            <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required pb32" data-type="text" data-name="Field">
+                                                <label class="s_website_form_label " style="width: 200px" for="ojhn1uqk00ff">
+                                                    <span class="s_website_form_label_content">Message</span>
+                                                    <span class="s_website_form_mark"> *</span>
+                                                </label>
+                                                <textarea class="form-control s_website_form_input" name="Message" required="1" placeholder="Your Message" id="ojhn1uqk00ff" rows="3" />
+                                            </div>
+                                            <div class="form-group s_website_form_field col-12    s_website_form_dnone" data-name="Field">
+                                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                    <label class="col-form-label col-sm-auto s_website_form_label " style="width: 200px">
+                                                        <span class="s_website_form_label_content" />
+                                                    </label>
+                                                    <div class="col-sm">
+                                                        <input type="hidden" class="form-control s_website_form_input" name="email_to" value="hola@smart-obc.com" />
+                                                        <div class="s_website_form_field_description small form-text text-muted">
+            Separate email addresses with a comma.
+        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-12 s_website_form_submit" data-name="Submit Button" data-original-title="" title="" aria-describedby="tooltip949396">
+                                                <div style="width: 200px;" class="s_website_form_label" />
+                                                <a href="#" role="button" class="s_website_form_send btn btn-primary btn-lg" data-original-title="" title="">&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Send Message&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;</a>
+                                                <span id="s_website_form_result" />
+                                                <br />
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
-                                <div class="contact-lastname">
-                                    <span>Last Name</span>
-                                    <input type="text" name="Last Name" />
-                                </div>
-                            </div>
-                            <div class="contact-email">
-                                <span>Email</span>
-                                <input type="email" name="Email" />
-                            </div>
-                            <div class="contact-subject">
-                                <span>Subject</span>
-                                <input type="text" name="subject " />
-                            </div>
-                            <div class="contact-message">
-                                <span>Message</span>
-                                <input type="text" name="Message" />
-                            </div>
+                            </section>
+                            <p>
+                                <br />
+                            </p>
                         </div>
-                        Replace this with your own HTML code
+                    </div>
+                </div>
+            </section>
+            <section class="s_banner parallax s_parallax_is_fixed pt96 pb96 o_colored_level" data-scroll-background-ratio="1" data-snippet="s_banner" data-name="Banner" style="background-image: none;">
+                <span class="s_parallax_bg oe_img_bg" style="background-image: url('/web/image/website.s_banner_default_image'); background-position: 50% 0;" />
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-6 jumbotron rounded o_cc o_cc1 pt32 pb32 o_colored_level" data-name="Box" data-original-title="" title="" aria-describedby="tooltip419283" style="">
+                            <h1>
+                                <font style="font-size: 62px;" class="o_default_snippet_text">Sell Online. Easily.</font>
+                            </h1>
+                            <p class="lead o_default_snippet_text">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                            <p class="lead">
+                                <a href="/home" class="btn btn-primary flat btn-lg" data-original-title="" title="">​</a>
+                                <br />
+                            </p>
+                            <p class="lead">
+                                <a href="/" class="btn btn-primary flat btn-lg" data-original-title="" title="">​</a>
+                                <br />
+                            </p>
+                            <p class="lead">
+                                <a href="/" class="btn btn-primary flat btn-lg" data-original-title="" title="">​</a>
+                                <br />
+                            </p>
+                            <a class="mb-2 btn btn-primary" href="/contactus" data-original-title="" title="">​</a>
+                        </div>
                     </div>
                 </div>
             </section>

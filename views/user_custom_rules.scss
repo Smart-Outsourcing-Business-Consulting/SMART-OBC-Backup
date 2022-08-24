@@ -1,47 +1,75 @@
+// Alejandro Atacho from SMART-obc Codes are below this line.
+//_________________________________________________
+// If any issues arises or fixes are need read the comments below to find out.
+// Which selectors are which.
+
+
+
 //Phones Designs
 @media screen and (min-width:360px) and (max-width: 767px) {
   // .user-custom-rules {
   //   display: none;
   // }
 }
+
 //END phones designs
-  
+
 //Tablets Design
 @media screen and (max-width: 1349px) {
   // .user-custom-rules {
   //   display: none;
   // }
 }
+
 //END Tablets Design 
 
-//Laptop/Decent Screen size
-@media screen and (min-width:1360px)
-{
-  // .container
-  // {
-  //   width: 1360px;
-  // }
-}
-//END Laptop/Decent Screen size
+//Laptop & Computer screen design
+@media screen and (min-width: 1100px) and (max-width: 3400px) {
 
-//Computer(pc)/Tv Size
-@media screen and (min-width:1380px) and (max-width: 1920px) {
+  #top_menu_collapse {
+    color: white !important;
+  }
 
-    // . nav navbar-nav ml-auto
-    #top_menu {
-  
-      color: white;
-  
-    }
-  
-    // .collapse navbar-collapse order-last order-lg-0
-    #top_menu_collapse {
-      padding-left: 450px !important;
-    }
-  
-    // .container justify-content-start justify-content-lg-between
-    #top_menu_container {
-      margin-left: 65px;
-    }
+  // . nav navbar-nav ml-auto
+  #top_menu {
+
+    color: white !important;
+
+  }
+
+  #top_menu_container {
+    margin-left: 60px;
+  }
+
+  // .collapse navbar-collapse order-last order-lg-0
+  #top_menu_collapse {
+    padding-left: 50px;
+  }
 }
-//END    
+
+//Overall screen size codes
+#wrap>section.s_text_image.pt32.o_colored_level.pb112>div>div>div.o_colored_level.pb0.col-lg-5.rounded.shadow.pt0 {
+  background-image: url("/web/image/2670-f5395eae/2M1A6787-scaled.jpg");
+  background-position: left;
+  color: white;
+
+  .contact-bg {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 40px 40px 40px 40px;
+  }
+
+  img {
+    width: 30px !important;
+    height: auto;
+  }
+
+  span>ul>li>a:hover {
+    color: #51E1DF !important;
+  }
+
+}
+
+//END
+
+//CSS animation continue
+.s_website_form_send {}

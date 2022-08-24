@@ -1,0 +1,126 @@
+<t t-name="website.erp">
+    <t t-call="website.layout">
+        <div id="wrap" class="oe_structure oe_empty">
+            <section class="s_banner parallax s_parallax_is_fixed o_colored_level pb256 pt256" data-scroll-background-ratio="1" data-snippet="s_banner" data-name="Banner" style="background-image: none;" data-original-title="" title="" aria-describedby="tooltip605128">
+                <span class="s_parallax_bg oe_img_bg o_bg_img_center" style="background-image: url(&quot;/web/image/2837-52f86df8/285995829782912-scaled.jpg&quot;); background-position: 50% 0px;" data-original-id="2612" data-original-src="/web/image/2612-4af58f28/285995829782912-scaled.jpg" data-mimetype="image/jpeg" data-resize-width="1920" />
+                <div class="container">
+                    <div class="row s_nb_column_fixed" data-original-title="" title="" aria-describedby="tooltip472949">
+                        <div class="jumbotron rounded o_colored_level pt0 pb0 col-lg-6" data-name="Box" style="" data-original-title="" title="" aria-describedby="tooltip267759">
+                            <h1>
+                                <font class="text-o-color-4" style="font-weight: bolder;">Enterprise resource planning (ERP)</font>
+                            </h1>
+                            <p>
+                                <font class="text-o-color-4" style="font-weight: bolder;">SMART-obc is specialized in ERP (Enterprise Resource Planning) software and Consultancy. ERP is software that covers all areas of your organization with one platform. SMART-obc is official partner of the ERP software Odoo.</font>
+                            </p>
+                            <p>
+                                <font class="text-o-color-4" style="font-weight: bolder;">
+                                    Odoo is an enterprise resource planning suite that includes CRM, e-commerce, billing, accounting, project management, and inventory management, among other features.
+                                    <br />
+                                    <br />
+                                </font>
+                            </p>
+                            <h1></h1>
+                            <a class="mb-2 btn btn-custom bg-o-color-2" href="/Odoo" data-original-title="" title="" style="border-width: 1px; border-style: solid;">
+                                <span style="font-weight: bolder;" data-original-title="" title="" aria-describedby="tooltip38321">
+                                    <span class="o_animated_text o_animate o_anim_fade_in_left o_visible" style="" data-original-title="" title="" aria-describedby="tooltip843447">Learn more about Odoo</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_text_image pt32 pb32 o_colored_level" data-snippet="s_image_text" data-name="Image - Text" style="background-image: none;">
+                <div class="container">
+                    <div class="row align-items-stretch">
+                        <div class="col-lg-6 pt16 pb16 o_colored_level o_animate o_anim_fade_in_left o_visible" style="">
+                            <img src="/web/image/2908-9a77c92d/ERP-Picture12.jpg" class="img img-fluid mx-auto" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip221510" style="" data-original-id="2613" data-original-src="/web/image/2613-f2a3bfd2/ERP-Picture12.jpg" data-mimetype="image/jpeg" data-resize-width="690" />
+                        </div>
+                        <div class="col-lg-6 o_colored_level pt48 pb0">
+                            <p>
+                                <span style="font-weight: bolder;">
+                                    <font class="text-600" style="font-style: italic;">ENTERPRISE RESOURCE PLANNING</font>
+                                </span>
+                            </p>
+                            <span style=" font-size: 0.9rem; font-weight: 600">
+                                <p>
+                                    <span style="font-style: italic;">
+                                        <font class="text-600">CUSTOMER RELATIONSHIP MANAGEMENT</font>
+                                    </span>
+                                </p>
+                            </span>
+                            <h2 />
+                            <p>
+                                <span style="font-weight: bolder;">WHAT IS ERP / CRM?</span>
+                            </p>
+                            <p>
+                                <span style="font-weight: bolder; font-size: 14px;">Enterprise resource planning (ERP) refers to a type of software that organizations use to manage day-to-day business activities such as: accounting,&amp;nbsp;procurement,&amp;nbsp;project management,&amp;nbsp;risk management and compliance, and&amp;nbsp;supply chain operations. A complete ERP suite also includes&amp;nbsp;enterprise performance management, software that helps plan, budget, predict, and report on an organization’s financial results.</span>
+                            </p>
+                            <p>
+                                <span style="font-weight: bolder; font-size: 14px;">CRM is Customer Relationship Management, software to record and manage all processes around sales and customer relationship. Odoo goes beyond the standard, with integrations into social media, websites and automated marketing.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_text_image pt32 pb32 o_colored_level" data-snippet="s_text_image" data-name="Text - Image" style="background-color: rgb(255, 245, 232) !important; background-image: none;">
+                <div class="container">
+                    <div class="row align-items-stretch">
+                        <div class="col-lg-6 pt16 pb16 o_colored_level" style="">
+                            <h2>
+                                <br />
+                            </h2>
+                            <p>
+                                <span style="font-size: 14px; font-weight: bolder;">
+                                    <font class="text-600" style="font-style: italic;">OUR SERVICES</font>
+                                </span>
+                            </p>
+                            <p>
+                                <span style="font-weight: bolder; font-size: 24px;">WE DELIVER IT AND PROCESS CONSULTANCY</span>
+                            </p>
+                            <ul>
+                                <li>
+                                    <span style="font-weight: bolder; font-size: 14px;">
+                                        <font class="text-600" style="font-weight: normal;">Independent advisory</font>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span style="font-weight: bolder; font-size: 14px;">
+                                        <font class="text-600" style="font-weight: 400;">Custom build solutions</font>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span style="font-weight: bolder; font-size: 14px;">
+                                        <font class="text-600" style="font-weight: 400;">Integrations</font>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span style="font-weight: bolder; font-size: 14px;">
+                                        <font class="text-600" style="font-weight: 400;">RPA Development</font>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span style="font-weight: bolder; font-size: 14px;">
+                                        <font class="text-600" style="font-weight: 400;">Workflow management and Archiving</font>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span style="font-weight: bolder; font-size: 14px;">
+                                        <font class="text-600" style="font-weight: 400;">Internet and App Development</font>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span style="font-weight: bolder; font-size: 14px;">
+                                        <font class="text-600" style="font-weight: 400;">Solutions: POS for Hospitality, Hour registration, Scanning, Scaling, Counting, RFID/NFC, Printing, Cards.</font>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 pt16 pb16 o_colored_level o_animate o_anim_zoom_in o_visible" style="animation-duration: 3s !important;">
+                            <img src="/web/image/2907-2bf72acc/What-we-offer12%20copy2.jpg" class="mx-auto o_animating img-thumbnail" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip248965" style="width: 100% !important;" data-original-id="2624" data-original-src="/web/image/2624-9d56dedd/What-we-offer12%20copy2.jpg" data-mimetype="image/jpeg" data-resize-width="690" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </t>
+</t>

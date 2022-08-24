@@ -1,0 +1,76 @@
+<t t-name="website.rpa">
+    <t t-call="website.layout">
+        <div id="wrap" class="oe_structure oe_empty">
+            <section class="s_banner parallax s_parallax_is_fixed o_colored_level pt256 pb256" data-scroll-background-ratio="1" data-snippet="s_banner" data-name="Banner" style="background-image: none;" data-original-title="" title="" aria-describedby="tooltip779292">
+                <span class="s_parallax_bg oe_img_bg o_bg_img_center" style="background-image: url(&quot;/web/image/2534-005b6215/18303736123123123-scaled.jpg&quot;); background-position: 50% 0px;" data-original-id="2532" data-original-src="/web/image/2532-b366ebd6/18303736123123123-scaled.jpg" data-mimetype="image/jpeg" data-resize-width="1920" />
+                <div class="container">
+                    <div class="row s_nb_column_fixed" data-original-title="" title="" aria-describedby="tooltip17075">
+                        <div class="jumbotron rounded pt32 pb32 o_colored_level o_cc o_cc1 col-lg-6" data-name="Box" data-original-title="" title="" aria-describedby="tooltip262424" style="background-color: rgba(246, 255, 0, 0) !important;">
+                            <h1>
+                                <span style="font-weight: bolder;">
+                                    <font class="text-o-color-3">Robotic Process Automation (RPA)</font>
+                                </span>
+                            </h1>
+                            <p>
+                                <span style="font-weight: bolder;">
+                                    <font class="text-o-color-3">process automation technology based on metaphorical software robots and artificial intelligence to create digital workers.</font>
+                                </span>
+                            </p>
+                            <p>
+                                <span style="font-weight: bolder;">
+                                    <font class="text-o-color-3">RPA helps your organization to improve quality, increase productivity and operate more cost effective.&amp;nbsp;</font>
+                                </span>
+                            </p>
+                            <p>
+                                <span style="font-weight: bolder;">
+                                    <font class="text-o-color-3">By automating repetitive tasks, we take the robot out of the human.</font>
+                                </span>
+                            </p>
+                            <h1></h1>
+                            <a class="mb-2 btn btn-custom btn-lg" href="https://takezo-my.sharepoint.com/:i:/g/personal/curt_smart-obc_com/Eda1d9j9AoZEuJARjE5adtMBmKY-s3xG0iR1B-WUGUCHLQ?e=y3wrzF" data-original-title="" title="" target="_blank" style="background-color: rgb(251, 148, 4); border-color: rgb(57, 132, 198); border-width: 1px; border-style: solid;">
+                                <span style="font-weight: bolder;" data-original-title="" title="" aria-describedby="tooltip231521">
+                                    <font class="text-o-color-3" style="font-weight: bolder;">
+                                        <span class="o_animated_text o_animate o_anim_fade_in o_visible" data-original-title="" title="" aria-describedby="tooltip480002" style="">Download PDF</span>
+                                    </font>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_text_image pt32 o_colored_level pb56" data-snippet="s_image_text" data-name="Image - Text" style="background-image: none;">
+                <div class="container">
+                    <div class="row align-items-stretch">
+                        <div class="pt16 pb16 o_colored_level col-lg-4 shadow" style="box-shadow: rgba(0, 0, 0, 0.15) 10px 19px 16px 0px !important;">
+                            <img src="/web/image/2573-23a0a1fa/IMG_9351-scaled.jpg" class="img img-fluid mx-auto" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip680778" data-original-id="2554" data-original-src="/web/image/2554-e22d8172/IMG_9351-scaled.jpg" data-mimetype="image/jpeg" data-resize-width="690" style="" />
+                        </div>
+                        <div class="o_colored_level pb8 pt0 col-lg-6 offset-lg-1" data-original-title="" title="" aria-describedby="tooltip275328">
+                            <blockquote>
+                                <font class="text-600">ROBOTIC PROCESS AUTOMATION</font>
+                            </blockquote>
+                            <h2></h2>
+                            <h1>
+                                <span style="font-size: 62px; font-weight: bolder;">WHAT IS RPA?</span>
+                            </h1>
+                            <h4>
+                                <span style="font-weight: bolder;">Next generation of automation</span>
+                            </h4>
+                            <p>
+                                <span style="font-size: 14px;">Robotic process automation (RPA) is a software technology that makes it possible to build, deploy, and manage software robots that emulate human actions to interact with digital systems and software. Just like people, software robots can do things like understand what’s on a screen, complete the right keystrokes,</span>
+                                <br />
+                                <span style="font-size: 14px;">navigate systems, identify and extract data, and perform a wide range of defined actions.</span>
+                            </p>
+                            <h5>
+                                <span style="font-weight: bolder;">We take the robot out of the human</span>
+                            </h5>
+                            <p>More time for analytic work and process improvement.</p>
+                            <h2 data-original-title="" title="" aria-describedby="tooltip889467">
+                                <br />
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </t>
+</t>

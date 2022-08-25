@@ -1,0 +1,140 @@
+<data>
+    <xpath expr="//*[hasclass('oe_structure')][@id='oe_structure_website_helpdesk_team_4']" position="replace">
+        <div class="oe_structure" id="oe_structure_website_helpdesk_team_4">
+            <section class="s_text_image pt32 o_colored_level o_half_screen_height pb96" data-snippet="s_text_image" data-name="Text - Image" style="background-image: none;">
+                <div class="container">
+                    <div class="row align-items-stretch">
+                        <div class="o_colored_level rounded border shadow pt0 pb0 col-lg-5 offset-lg-1" style="border-radius: 20px !important; box-shadow: rgba(0, 0, 0, 0.15) -22px 22px 16px 0px !important;">
+                            <h2>
+                                <br />
+                            </h2>
+                            <section class="s_website_form pt16 pb16" data-vcss="001" data-snippet="s_website_form" data-name="Form" data-original-title="" title="" aria-describedby="tooltip536152">
+                                <div class="container">
+                                    <form action="/website/form/" method="post" enctype="multipart/form-data" class="o_mark_required" data-mark="*" data-pre-fill="true" data-success-mode="redirect" data-success-page="/your-ticket-has-been-submitted" data-model_name="helpdesk.ticket">
+                                        <div class="s_website_form_rows row s_col_no_bgcolor">
+                                            <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 s_website_form_required col-lg-10 offset-lg-1" data-type="char" data-name="Field">
+                                                <label class="s_website_form_label" style="width: 200px" for="o43pedcmrzj5">
+                                                    <span class="s_website_form_label_content">Your Name</span>
+                                                    <span class="s_website_form_mark">    *</span>
+                                                </label>
+                                                <input type="text" class="form-control s_website_form_input" name="partner_name" required="1" placeholder="" id="o43pedcmrzj5" data-fill-with="name" />
+                                            </div>
+                                            <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 s_website_form_required col-lg-10 offset-lg-1" data-type="char" data-name="Field">
+                                                <label class="s_website_form_label " style="width: 200px" for="oazh7k4uje8d">
+                                                    <span class="s_website_form_label_content">Your Email</span>
+                                                    <span class="s_website_form_mark">      *</span>
+                                                </label>
+                                                <input type="text" class="form-control s_website_form_input" name="partner_email" required="1" placeholder="" id="oazh7k4uje8d" data-fill-with="email" />
+                                            </div>
+                                            <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 s_website_form_model_required col-lg-10 offset-lg-1" data-type="char" data-name="Field">
+                                                <label class="s_website_form_label " style="width: 200px" for="ov1x2px2i009">
+                                                    <span class="s_website_form_label_content">Subject</span>
+                                                    <span class="s_website_form_mark">      *</span>
+                                                </label>
+                                                <input type="text" class="form-control s_website_form_input" name="name" required="true" value="" placeholder="" id="ov1x2px2i009" data-fill-with="undefined" />
+                                            </div>
+                                            <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 col-lg-10 offset-lg-1" data-type="html" data-name="Field">
+                                                <label class="s_website_form_label " style="width: 200px" for="ogw7f3sja86">
+                                                    <span class="s_website_form_label_content">Description</span>
+                                                </label>
+                                                <textarea class="form-control s_website_form_input" name="description" placeholder="" id="ogw7f3sja86" rows="3" />
+                                            </div>
+                                            <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 s_website_form_custom col-lg-9 offset-lg-1" data-type="binary" data-name="Field">
+                                                <label class="s_website_form_label " style="width: 200px" for="ouklou62cd7p">
+                                                    <span class="s_website_form_label_content">Attachment</span>
+                                                </label>
+                                                <input type="file" class="form-control-file s_website_form_input" name="Attachment" id="ouklou62cd7p" data-fill-with="undefined" />
+                                            </div>
+                                            <div class="form-group s_website_form_field col-12    s_website_form_dnone" data-name="Field">
+                                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                    <label class="col-form-label col-sm-auto s_website_form_label " style="width: 200px">
+                                                        <span class="s_website_form_label_content" />
+                                                    </label>
+                                                    <div class="col-sm">
+                                                        <input type="hidden" class="form-control s_website_form_input" name="team_id" value="2" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-12 s_website_form_submit" data-name="Submit Button">
+                                                <div style="width: 200px;" class="s_website_form_label" />
+                                                <a href="#" role="button" class="s_website_form_send btn btn-primary btn-lg" data-original-title="" title="" aria-describedby="popover581544">Submit</a>
+                                                <span id="s_website_form_result" />
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </section>
+                            <p>
+                                <br />
+                            </p>
+                        </div>
+                        <div class="o_colored_level border rounded pb0 col-lg-5 pt16 shadow" style="border-radius: 20px !important; box-shadow: rgba(0, 0, 0, 0.15) 33px 34px 16px 0px !important;background-image:url(https://mikompania.odoo.com/web/image/2999-0bd64d5d/2M1A6787-scaled.jpg)">
+                            <div class="contact-bg">
+                                <span>
+                                    <h2>Locations:</h2>
+                                </span>
+                                <br />
+                                <span>
+                                    <p>
+                                        We have offices at Curaçao,
+                                        <br />
+                                        The Bahamas and the Dominican Republic, we deliver services
+                                        <br />
+                                        in the whole Caribbean.
+                                    </p>
+                                </span>
+                                <br />
+                                <span>
+                                    <ul style="display:flex;flex-direction: column;list-style:none;padding-left:0px;">
+                                        <li>
+                                            <img src="https://i.ibb.co/94BpXCG/telephone-call-copy-w.png" alt="telephone-call" border="0" loading="lazy" style="" />
+                                            <a href="tel:#" style="color: white; text-decoration: none;"> +599 9 675 7124</a>
+                                        </li>
+                                        <br />
+                                        <li>
+                                            <img src="https://i.ibb.co/7RjKPKc/image-copy-w.png" alt="email" border="0" loading="lazy" style="" />
+                                            <a href="mailto:hola@smart-obc.com" style="color: white; text-decoration: none;">  hola@smart-obc.com</a>
+                                        </li>
+                                        <br />
+                                        <li>
+                                            <img src="https://i.ibb.co/RbqjsMX/location-copy-w.png" alt="location" border="0" loading="lazy" style="" />
+                                            <a href="https://goo.gl/maps/eq2pk1A46h5XgNL6A" style="color:white;text-decoration:none;">  Head Office: Willemstad, Curaçao </a>
+                                        </li>
+                                    </ul>
+                                </span>
+                                <br />
+                                <span>
+                                    <h5>OUR SOCIAL PROFILES:</h5>
+                                    <br />
+                                    <ul style="display:flex;flex-direction: row;list-style: none;padding-left:0;">
+                                        <li style="padding-right:10px">
+                                            <a href="https://www.facebook.com/smartobccw">
+                                                <img src="https://i.ibb.co/zbhZWds/facebook.png" alt="facebook" border="0" loading="lazy" style="" />
+                                            </a>
+                                        </li>
+                                        <li style="padding-right:10px">
+                                            <a href="https://www.instagram.com/smart.obc/">
+                                                <img src="https://i.ibb.co/GQdxyM2/instagram-1.png" alt="instagram-1" border="0" loading="lazy" style="" />
+                                            </a>
+                                        </li>
+                                        <li style="padding-right:10px">
+                                            <a href="https://nl.linkedin.com/company/smart-obc?trk=ppro_cprof">
+                                                <img src="https://i.ibb.co/RvrKVz9/linkedin.png" alt=" linkedin" border=" 0" loading="lazy" style="" />
+                                            </a>
+                                        </li>
+                                        <li style="padding-right:10px">
+                                            <a href="https://www.youtube.com/channel/UCSPg6iW_W3FBf_MqtTLXfbg">
+                                                <img src="https://i.ibb.co/bzNpzyp/youtube.png" alt="youtube" border="0" loading="lazy" style="" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </span>
+                            </div>
+                            <!--<img src="/web/image/2999-0bd64d5d/2M1A6787-scaled.jpg" class="img img-fluid mx-auto" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip118904" data-original-id="2663" data-original-src="/web/image/2663-9233019e/2M1A6787-scaled.jpg" data-mimetype="image/jpeg" data-resize-width="690" data-gl-filter="custom" data-filter-options="{&quot;brightness&quot;:&quot;-40&quot;}" style=""/>-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </xpath>
+</data>

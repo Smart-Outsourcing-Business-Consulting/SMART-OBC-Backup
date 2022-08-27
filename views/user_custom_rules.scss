@@ -48,7 +48,8 @@
 }
 
 //Overall screen size codes
-#wrap>section.s_text_image.pt32.o_colored_level.pb112>div>div>div.o_colored_level.pb0.col-lg-5.rounded.shadow.pt0 {
+#wrap>section.s_text_image.pt32.o_colored_level.pb112>div>div>div.o_colored_level.pb0.col-lg-5.rounded.shadow.pt0,
+#oe_structure_website_helpdesk_team_4>section>div>div>div.o_colored_level.border.rounded.pb0.col-lg-5.pt16.shadow {
   background-image: url("/web/image/2670-f5395eae/2M1A6787-scaled.jpg");
   background-position: left;
   color: white;
@@ -71,7 +72,20 @@
 
 //END
 
-//CSS animation continue
-.s_website_form_send {
-  
+#wrap>section.s_comparisons.pb32.o_colored_level.pt0>div>div>div:nth-child(1):hover,
+#wrap>section.s_comparisons.pb32.o_colored_level.pt0>div>div>div:nth-child(2):hover,
+#wrap>section.s_comparisons.pb32.o_colored_level.pt0>div>div>div:nth-child(3):hover {
+  -ms-transform: scale(1.25);
+  /* IE 9 */
+  -webkit-transform: scale(1.25);
+  /* Safari 3-8 */
+  transform: scale(1.25);
+  padding: 30px;
+
+  .list-group-item {
+    padding: 0;
+  }
 }
+
+//CSS animation continue
+.s_website_form_send {}
